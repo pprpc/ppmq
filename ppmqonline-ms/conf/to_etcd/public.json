@@ -1,0 +1,6 @@
+{
+    "report_interval": 60
+    ,"max_go": 100000
+    ,"admin_prof" : true
+    ,"admin_port": 28001
+}

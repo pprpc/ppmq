@@ -1,0 +1,103 @@
+{
+    "public":{
+        "report_interval": 60
+        ,"max_go": 100000
+        ,"admin_prof" : true
+        ,"admin_port": 10053
+        ,"run_go": true
+    }
+    ,"listen":[{
+        "uri": "tcp://0.0.0.0:53"
+        ,"read_timeout": 270
+        ,"res_id": 1
+    },{
+        "uri": "udp://0.0.0.0:53"
+        ,"read_timeout": 35
+        ,"res_id": 2
+    },{
+        "uri": "tcp://0.0.0.0:1053"
+        ,"read_timeout": 270
+        ,"res_id": 1
+    },{
+        "uri": "udp://0.0.0.0:1053"
+        ,"read_timeout": 35
+        ,"res_id": 2
+    },{
+        "uri": "tls://0.0.0.0:8053"
+        ,"read_timeout": 270
+        ,"tls_crt": "../conf/tls/server.crt"
+        ,"tls_key": "../conf/tls/server.key"
+        ,"res_id": 0
+    }]
+    ,"log":{
+        "file": "/var/log/ppmq/ppmqd.log"
+        ,"max_size": 102400
+        ,"max_backups": 5
+        ,"max_age": 0
+        ,"caller": true
+        ,"level": -1
+        ,"seelog_port": 2053
+        ,"seelog_user": "user"
+        ,"seelog_pass": "pass"
+    }
+    ,"dbs":[{
+        "conf_name": "ppmq"
+        ,"type": "mysql"
+        ,"user": "root"
+        ,"pass": "binwen"
+        ,"name": "ppmq"
+        ,"host": "localhost"
+        ,"port": 3306
+        ,"charset": "utf8"
+        ,"socket": "/var/lib/mysql/mysql.sock"
+        ,"debug": false
+        ,"max_idle": 4
+        ,"max_conn": 4
+    }]
+    ,"private_config":{
+        "max_session": 1000000
+        ,"ppmq":{
+            "online_notify": true
+            ,"offline_notify": true
+            ,"_notify_topic_prefix": "在离线信息的前缀: online and offline = oao; /oao/clientid"
+            ,"notify_topic_prefix": "/oao/"
+            ,"udp_hbsec": 28
+            ,"tcp_hbsec": 150
+            ,"max_sessions": 12345
+            ,"_mode": "single: 单机版; cluster: 集群版本"
+            ,"mode": "single"
+            ,"cluster_signkey": "xxxxxxxxxxxxxxxx"
+            ,"qos": true
+            ,"udp_resp_timeoutms": 600
+            ,"_offlinemsg_timeoutms": "当前时间先前推该时间作为开始时间"
+            ,"offlinemsg_timeoutms": 3600000
+            ,"_offlinemsg_send_intervalms": "发送离线消息时候的间隔时间"
+            ,"offlinemsg_send_intervalms": 100
+            ,"_message_order": "0, 不保障消费者消息的顺序; 1, 保障消费者消息顺序(时间序)"
+            ,"message_order": 0
+            ,"_message_order_length": "用来进行消息命令排队的长度"
+            ,"message_order_length": 1024
+        }
+        ,"redis":{
+            "addr": "127.0.0.1:6379"
+            ,"password":""
+            ,"db": 0
+            ,"pool_size": 5
+            ,"idle_conn": 5
+        }
+        ,"auth_desc": "1, local auth; 2, auth micro service"
+        ,"auth": 1
+        ,"check_topic_desc": "auth=2的时候: 0 不检查topic; 1 检查topic"
+        ,"check_topic": 1
+        ,"micros":[{
+            "name": "authuser"
+            ,"uris": ["tcp://127.0.0.1:6004"]
+        },{
+            "name": "authdevice"
+            ,"uris": ["tcp://192.168.6.217:6000"]
+        },{
+            "name": "ppmqrouterd"
+            ,"uris": ["tcp://192.168.6.217:6000"]
+        }]
+    }
+}

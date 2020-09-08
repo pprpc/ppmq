@@ -1,0 +1,12 @@
+{
+    "file": "/var/log/ppmq/ppmqd.log"
+    ,"max_size": 102400
+    ,"max_backups": 5
+    ,"max_age": 0
+    ,"caller": true
+    ,"level": -1
+    ,"seelog_port": 30053
+    ,"seelog_user": "fd"
+    ,"seelog_pass": "fd2018"
+    ,"log_dir": "/var/log/ppmq/"
+}

@@ -1,0 +1,17 @@
+[Unit]
+Description=ppmqonline-ms Service
+After=storage.service
+After=network.target
+
+[Service]
+Type=simple
+EnvironmentFile=/media/fdiot/tools/env.conf
+WorkingDirectory=/media/fdiot/ppmqonline-ms/bin
+ExecStart=/media/fdiot/ppmqonline-ms/bin/ppmqonline-ms -ipaddr ${etcdsrv} -region ${region} -i ${devname}
+
+#Restart=on-success
+Restart=on-failure
+RestartSec=6s
+
+[Install]
+WantedBy=multi-user.target

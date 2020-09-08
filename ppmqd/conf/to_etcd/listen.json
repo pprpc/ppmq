@@ -1,0 +1,23 @@
+[{
+    "uri": "tcp://0.0.0.0:53"
+    ,"read_timeout": 270
+    ,"res_id": 1
+},{
+    "uri": "udp://0.0.0.0:53"
+    ,"read_timeout": 35
+    ,"res_id": 2
+},{
+    "uri": "tcp://0.0.0.0:1053"
+    ,"read_timeout": 270
+    ,"res_id": 1
+},{
+    "uri": "udp://0.0.0.0:1053"
+    ,"read_timeout": 35
+    ,"res_id": 2
+},{
+    "uri": "tls://0.0.0.0:8053"
+    ,"read_timeout": 270
+    ,"tls_crt": "../conf/tls/server.crt"
+    ,"tls_key": "../conf/tls/server.key"
+    ,"res_id": 0
+}]

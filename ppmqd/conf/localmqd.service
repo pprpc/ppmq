@@ -1,0 +1,17 @@
+[Unit]
+Description=ppmqd Service
+After=storage.service
+After=network.target
+
+[Service]
+Type=simple
+EnvironmentFile=/media/fdiot/tools/env.conf
+WorkingDirectory=/media/fdiot/localmqd/bin
+ExecStart=/media/fdiot/localmqd/bin/ppmqd -ipaddr ${etcdsrv} -region ${region} -i ${devname} -msname localmqd -dbs localmq
+
+#Restart=on-success
+Restart=on-failure
+RestartSec=6s
+
+[Install]
+WantedBy=multi-user.target

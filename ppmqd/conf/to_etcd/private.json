@@ -1,0 +1,56 @@
+{
+    "max_session": 1000000
+    ,"ppmq":{
+        "online_notify": true
+        ,"offline_notify": true
+        ,"_notify_topic_prefix": "在离线信息的前缀: online and offline = oao; /oao/clientid"
+        ,"notify_topic_prefix": "/oao/"
+        ,"udp_hbsec": 28
+        ,"tcp_hbsec": 150
+        ,"max_sessions": 12345
+        ,"_mode": "single: 单机版; cluster: 集群版本"
+        ,"mode": "single"
+        ,"cluster_signkey": "xxxxxxxxxxxxxxxx"
+        ,"qos": true
+        ,"udp_resp_timeoutms": 600
+        ,"offlinemsg_timeoutms_desc": "当前时间先前推该时间作为开始时间"
+        ,"offlinemsg_timeoutms": 3600000
+        ,"offlinemsg_endms_desc": "当前时间往前推该时间作为结束时间"
+        ,"offlinemsg_endms": 10000
+        ,"offlinemsg_send_sleepms_desc": "Connect成功后多久开始发送离线消息"
+        ,"offlinemsg_send_sleepms": 1500
+        ,"offlinemsg_send_intervalms_desc": "发送离线消息时候的间隔时间"
+        ,"offlinemsg_send_intervalms": 100
+        ,"_sso_enable": "true: 开启账号单点登录; false: 允许多次登录"
+        ,"sso_enable": true
+        ,"tempdb_expiredms": 604800000
+        ,"tempdb_clear_intervalsec": 3600
+    }
+    ,"redis":{
+        "addr": "127.0.0.1:6379"
+        ,"password":""
+        ,"db": 0
+        ,"pool_size": 5
+        ,"idle_conn": 5
+    }
+    ,"_clear_sameid":"去掉了sso_enable功能，使用该功能解决相同ID上线问题"
+    ,"clear_sameid": {
+        "clear": true
+        ,"white_account": ["PPdevice2"]
+    }
+    ,"device_prefix": ""
+    ,"auth_desc": "1, local auth; 2, auth micro service"
+    ,"auth": 1
+    ,"check_topic_desc": "auth=2的时候: 0 不检查topic; 1 检查topic"
+    ,"check_topic": 1
+    ,"micros":[{
+        "name": "authuser"
+        ,"uris": ["tcp://127.0.0.1:6004"]
+    },{
+        "name": "authdevice"
+        ,"uris": ["tcp://192.168.6.217:6000"]
+    },{
+        "name": "authdevice"
+        ,"uris": ["tcp://192.168.6.217:6000"]
+    }]
+}

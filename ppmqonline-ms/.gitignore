@@ -1,0 +1,5 @@
+*.sh
+pkg/
+bin/*
+*.tar.*
+test/

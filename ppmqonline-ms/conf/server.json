@@ -1,0 +1,39 @@
+{
+    "public":{
+        "report_interval": 60
+        ,"max_go": 100000
+        ,"admin_prof" : true
+        ,"admin_port": 30000
+    }
+    ,"listen":[{
+        "uri": "tcp://0.0.0.0:8810"
+        ,"read_timeout": 270
+        ,"tls_crt": ""
+        ,"tls_key": ""
+    }]
+    ,"log":{
+        "file": "/var/log/ppmq/online-ms.log"
+        ,"max_size": 2
+        ,"max_backups": 25
+        ,"max_age": 2
+        ,"caller": true
+        ,"level": -1
+    }
+    ,"dbs":[{
+        "conf_name": "user"
+        ,"type": "mysql"
+        ,"user": "root"
+        ,"pass": "binwen"
+        ,"name": "devicedata"
+        ,"host": "localhost"
+        ,"port": 3306
+        ,"charset": "utf8"
+        ,"socket": "/var/lib/mysql/mysql.sock"
+        ,"debug": true
+        ,"max_idle": 4
+        ,"max_conn": 4
+    }]
+    ,"private_config":{
+        "max_session": 1000000
+    }
+}

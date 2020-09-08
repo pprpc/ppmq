@@ -1,0 +1,8 @@
+{
+    "file": "/var/log/ppmq/online-ms.log"
+    ,"max_size": 2
+    ,"max_backups": 25
+    ,"max_age": 2
+    ,"caller": true
+    ,"level": -1
+}
