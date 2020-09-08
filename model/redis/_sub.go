@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/go-redis/redis"
-	"xcthings.com/hjyz/logs"
+	"github.com/pprpc/util/logs"
 	"xcthings.com/micro/svc"
 	"xcthings.com/ppmq/protoc/ppmqd/PPMQSubscribe"
 )

@@ -3,9 +3,9 @@ package msg
 import (
 	"fmt"
 
-	"xcthings.com/hjyz/common"
+	"github.com/pprpc/util/common"
 	"xcthings.com/ppmq/ppmqcli"
-	"xcthings.com/pprpc"
+	"github.com/pprpc/core"
 )
 
 type PPMQMsg struct {

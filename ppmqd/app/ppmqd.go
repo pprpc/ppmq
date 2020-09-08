@@ -4,8 +4,8 @@ import (
 	"flag"
 	"fmt"
 
-	"xcthings.com/hjyz/common"
-	"xcthings.com/hjyz/logs"
+	"github.com/pprpc/util/common"
+	"github.com/pprpc/util/logs"
 	"xcthings.com/ppmq/ppmqd/common/app"
 	g "xcthings.com/ppmq/ppmqd/common/global"
 	ctrl "xcthings.com/ppmq/ppmqd/controller"

@@ -2,7 +2,7 @@ package common
 
 import (
 	"xcthings.com/ppmq/protoc/ppmqd/PPMQPublish"
-	"xcthings.com/pprpc/packets"
+	"github.com/pprpc/core/packets"
 )
 
 type PpmqConn struct {

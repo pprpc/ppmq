@@ -3,12 +3,12 @@ package controller
 import (
 	"fmt"
 
-	"xcthings.com/hjyz/common"
-	"xcthings.com/hjyz/logs"
+	"github.com/pprpc/util/common"
+	"github.com/pprpc/util/logs"
 	pm "xcthings.com/ppmq/model"
 	"xcthings.com/ppmq/protoc/ppmqd/PPMQPublish"
-	"xcthings.com/pprpc"
-	"xcthings.com/pprpc/packets"
+	"github.com/pprpc/core"
+	"github.com/pprpc/core/packets"
 
 	g "xcthings.com/ppmq/ppmqd/common/global"
 	l "xcthings.com/ppmq/ppmqd/logic"

@@ -5,13 +5,13 @@ import (
 	"runtime"
 
 	"github.com/go-xorm/xorm"
-	"xcthings.com/hjyz/common"
-	"xcthings.com/hjyz/logs"
+	"github.com/pprpc/util/common"
+	"github.com/pprpc/util/logs"
 	mqc "xcthings.com/ppmq/common"
 	pm "xcthings.com/ppmq/model"
 	g "xcthings.com/ppmq/ppmqd/common/global"
 	"xcthings.com/ppmq/protoc/ppmqd/PPMQPublish"
-	"xcthings.com/pprpc"
+	"github.com/pprpc/core"
 )
 
 type writemsg func(c pprpc.RPCConn, req *PPMQPublish.Req, ci *g.ConnAttr)

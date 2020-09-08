@@ -1,13 +1,13 @@
 package model
 
 import (
-	"xcthings.com/hjyz/common"
-	"xcthings.com/hjyz/logs"
+	"github.com/pprpc/util/common"
+	"github.com/pprpc/util/logs"
 	errc "xcthings.com/ppmq/common/errorcode"
 	pm "xcthings.com/ppmq/model"
 	g "xcthings.com/ppmq/ppmqd/common/global"
 	"xcthings.com/ppmq/protoc/ppmqd/PPMQPublish"
-	"xcthings.com/pprpc"
+	"github.com/pprpc/core"
 )
 
 // MPPMQPublish PPMQPublish

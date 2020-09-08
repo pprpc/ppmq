@@ -4,12 +4,12 @@ import (
 	"container/list"
 	"fmt"
 
-	"xcthings.com/hjyz/cache"
-	"xcthings.com/hjyz/common"
-	"xcthings.com/hjyz/logs"
+	"github.com/pprpc/util/cache"
+	"github.com/pprpc/util/common"
+	"github.com/pprpc/util/logs"
 	"xcthings.com/ppmq/protoc/ppmqd/PPMQConnect"
-	"xcthings.com/pprpc"
-	"xcthings.com/pprpc/packets"
+	"github.com/pprpc/core"
+	"github.com/pprpc/core/packets"
 
 	mqc "xcthings.com/ppmq/common"
 	pm "xcthings.com/ppmq/model"

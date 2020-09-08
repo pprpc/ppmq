@@ -5,8 +5,8 @@ import (
 	"fmt"
 
 	"go.uber.org/zap/zapcore"
-	"xcthings.com/hjyz/common"
-	"xcthings.com/hjyz/logs"
+	"github.com/pprpc/util/common"
+	"github.com/pprpc/util/logs"
 	"xcthings.com/micro/svc"
 	g "xcthings.com/ppmq/ppmqonline-ms/common/global"
 	"xcthings.com/ppmq/ppmqonline-ms/model"

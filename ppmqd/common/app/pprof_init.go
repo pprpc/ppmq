@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"net/http"
 
-	"xcthings.com/hjyz/logs"
-	xcpprof "xcthings.com/hjyz/pprof"
+	"github.com/pprpc/util/logs"
+	xcpprof "github.com/pprpc/util/pprof"
 	g "xcthings.com/ppmq/ppmqd/common/global"
-	"xcthings.com/pprpc"
+	"github.com/pprpc/core"
 )
 
 var tcplis []*pprpc.RPCTCPServer

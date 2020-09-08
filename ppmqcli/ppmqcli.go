@@ -6,8 +6,8 @@ import (
 	"net/url"
 	"time"
 
-	"xcthings.com/hjyz/common"
-	"xcthings.com/hjyz/logs"
+	"github.com/pprpc/util/common"
+	"github.com/pprpc/util/logs"
 	mqc "xcthings.com/ppmq/common"
 	errc "xcthings.com/ppmq/common/errorcode"
 	clic "xcthings.com/ppmq/ppmqcli/common"
@@ -16,8 +16,8 @@ import (
 	"xcthings.com/ppmq/protoc/ppmqd/PPMQPing"
 	"xcthings.com/ppmq/protoc/ppmqd/PPMQPublish"
 	"xcthings.com/ppmq/protoc/ppmqd/PPMQSubscribe"
-	"xcthings.com/pprpc"
-	"xcthings.com/pprpc/packets"
+	"github.com/pprpc/core"
+	"github.com/pprpc/core/packets"
 )
 
 // PpmqCli .

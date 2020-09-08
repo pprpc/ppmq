@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/go-xorm/xorm"
-	"xcthings.com/hjyz/common"
+	"github.com/pprpc/util/common"
 	"xcthings.com/micro/svc"
 	//_ "github.com/mattn/go-sqlite3"
 )

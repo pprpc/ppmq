@@ -6,15 +6,15 @@ import (
 	"net/url"
 	"strconv"
 
-	"xcthings.com/hjyz/logs"
+	"github.com/pprpc/util/logs"
 	"xcthings.com/micro/svc"
 	mqc "xcthings.com/ppmq/common"
 	g "xcthings.com/ppmq/ppmqd/common/global"
 	ctrl "xcthings.com/ppmq/ppmqd/controller"
-	"xcthings.com/pprpc"
-	"xcthings.com/pprpc/packets"
-	"xcthings.com/pprpc/pptcp"
-	"xcthings.com/pprpc/ppudp"
+	"github.com/pprpc/core"
+	"github.com/pprpc/core/packets"
+	"github.com/pprpc/core/pptcp"
+	"github.com/pprpc/core/ppudp"
 )
 
 func serverInit() {

@@ -5,14 +5,14 @@ import (
 	"fmt"
 
 	"go.uber.org/zap/zapcore"
-	"xcthings.com/hjyz/common"
-	"xcthings.com/hjyz/logs"
+	"github.com/pprpc/util/common"
+	"github.com/pprpc/util/logs"
 	"xcthings.com/micro/svc"
 	mmodel "xcthings.com/ppmq/model"
 	g "xcthings.com/ppmq/ppmqd/common/global"
 	ctrl "xcthings.com/ppmq/ppmqd/controller"
 	"xcthings.com/ppmq/ppmqd/model"
-	"xcthings.com/pprpc/sess"
+	"github.com/pprpc/core/sess"
 
 	rsub "xcthings.com/ppmq/model/redis"
 )

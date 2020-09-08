@@ -3,11 +3,11 @@ package logic
 import (
 	"fmt"
 
-	"xcthings.com/hjyz/logs"
+	"github.com/pprpc/util/logs"
 	errc "xcthings.com/ppmq/common/errorcode"
 	"xcthings.com/ppmq/protoc/ppmqd/PPMQSubscribe"
-	"xcthings.com/pprpc"
-	"xcthings.com/pprpc/packets"
+	"github.com/pprpc/core"
+	"github.com/pprpc/core/packets"
 
 	g "xcthings.com/ppmq/ppmqd/common/global"
 	t "xcthings.com/ppmq/ppmqd/common/topic"

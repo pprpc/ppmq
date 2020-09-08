@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"strings"
 
-	"xcthings.com/hjyz/logs"
+	"github.com/pprpc/util/logs"
 )
 
 func Match(t1, t2 string) (code uint32) {

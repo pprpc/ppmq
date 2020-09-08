@@ -2,7 +2,7 @@ package global
 
 import (
 	"xcthings.com/micro/svc"
-	"xcthings.com/pprpc"
+	"github.com/pprpc/core"
 )
 
 // Conf .

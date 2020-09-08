@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	"xcthings.com/ppmq/protoc/ppmqonline/OnlineState"
-	"xcthings.com/pprpc"
-	"xcthings.com/pprpc/packets"
+	"github.com/pprpc/core"
+	"github.com/pprpc/core/packets"
 	errc "xcthings.com/xc-app/common/errorcode"
 
 	m "xcthings.com/ppmq/ppmqonline-ms/model"

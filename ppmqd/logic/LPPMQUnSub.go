@@ -1,10 +1,10 @@
 package logic
 
 import (
-	"xcthings.com/hjyz/logs"
+	"github.com/pprpc/util/logs"
 	"xcthings.com/ppmq/protoc/ppmqd/PPMQUnSub"
-	"xcthings.com/pprpc"
-	"xcthings.com/pprpc/packets"
+	"github.com/pprpc/core"
+	"github.com/pprpc/core/packets"
 
 	errc "xcthings.com/ppmq/common/errorcode"
 	g "xcthings.com/ppmq/ppmqd/common/global"

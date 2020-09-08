@@ -3,7 +3,7 @@ package model
 import (
 	"fmt"
 
-	"xcthings.com/hjyz/common"
+	"github.com/pprpc/util/common"
 	pm "xcthings.com/ppmq/model"
 	g "xcthings.com/ppmq/ppmqd/common/global"
 	"xcthings.com/ppmq/ppmqd/common/topic"

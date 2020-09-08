@@ -6,9 +6,9 @@ import (
 	"math/rand"
 	"time"
 
-	"xcthings.com/hjyz/common"
-	"xcthings.com/hjyz/crypto"
-	"xcthings.com/hjyz/logs"
+	"github.com/pprpc/util/common"
+	"github.com/pprpc/util/crypto"
+	"github.com/pprpc/util/logs"
 	mqc "xcthings.com/ppmq/common"
 	pm "xcthings.com/ppmq/model"
 	g "xcthings.com/ppmq/ppmqd/common/global"

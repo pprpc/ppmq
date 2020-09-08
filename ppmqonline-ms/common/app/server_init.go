@@ -6,11 +6,11 @@ import (
 	"net/url"
 	"strconv"
 
-	"xcthings.com/hjyz/logs"
+	"github.com/pprpc/util/logs"
 	"xcthings.com/micro/svc"
 	g "xcthings.com/ppmq/ppmqonline-ms/common/global"
-	"xcthings.com/pprpc"
-	"xcthings.com/pprpc/packets"
+	"github.com/pprpc/core"
+	"github.com/pprpc/core/packets"
 )
 
 func serverInit() (err error) {

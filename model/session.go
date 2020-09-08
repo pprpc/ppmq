@@ -3,7 +3,7 @@ package model
 import (
 	"fmt"
 
-	"xcthings.com/hjyz/common"
+	"github.com/pprpc/util/common"
 	errc "xcthings.com/ppmq/common/errorcode"
 )
 

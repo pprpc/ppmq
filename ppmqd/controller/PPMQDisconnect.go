@@ -1,11 +1,11 @@
 package controller
 
 import (
-	"xcthings.com/hjyz/common"
-	"xcthings.com/hjyz/logs"
+	"github.com/pprpc/util/common"
+	"github.com/pprpc/util/logs"
 	"xcthings.com/ppmq/protoc/ppmqd/PPMQDisconnect"
-	"xcthings.com/pprpc"
-	"xcthings.com/pprpc/packets"
+	"github.com/pprpc/core"
+	"github.com/pprpc/core/packets"
 )
 
 // PPMQDisconnecter .

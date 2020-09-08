@@ -4,14 +4,14 @@ import (
 	"context"
 	"time"
 
-	"xcthings.com/hjyz/logs"
+	"github.com/pprpc/util/logs"
 	mqc "xcthings.com/ppmq/common"
 	g "xcthings.com/ppmq/ppmqd/common/global"
 	lm "xcthings.com/ppmq/ppmqd/model"
 	"xcthings.com/ppmq/protoc/ppmqd/PPMQEXChangeMsg"
 	"xcthings.com/ppmq/protoc/ppmqd/PPMQPublish"
-	"xcthings.com/pprpc"
-	"xcthings.com/pprpc/packets"
+	"github.com/pprpc/core"
+	"github.com/pprpc/core/packets"
 )
 
 // Deliver2Customer .

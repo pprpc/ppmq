@@ -3,7 +3,7 @@ package model
 import (
 	"fmt"
 
-	"xcthings.com/hjyz/crypto"
+	"github.com/pprpc/util/crypto"
 )
 
 func getClientID(account, hwf string) string {

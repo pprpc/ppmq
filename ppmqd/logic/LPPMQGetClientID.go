@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	"xcthings.com/ppmq/protoc/ppmqd/PPMQGetClientID"
-	"xcthings.com/pprpc"
-	"xcthings.com/pprpc/packets"
+	"github.com/pprpc/core"
+	"github.com/pprpc/core/packets"
 
 	errc "xcthings.com/ppmq/common/errorcode"
 	m "xcthings.com/ppmq/ppmqd/model"

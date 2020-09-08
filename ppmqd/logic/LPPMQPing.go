@@ -2,8 +2,8 @@ package logic
 
 import (
 	"xcthings.com/ppmq/protoc/ppmqd/PPMQPing"
-	"xcthings.com/pprpc"
-	"xcthings.com/pprpc/packets"
+	"github.com/pprpc/core"
+	"github.com/pprpc/core/packets"
 
 	m "xcthings.com/ppmq/ppmqd/model"
 )

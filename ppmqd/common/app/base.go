@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	"xcthings.com/hjyz/logs"
+	"github.com/pprpc/util/logs"
 	"xcthings.com/micro/pprpcpool"
 	"xcthings.com/micro/svc"
 	g "xcthings.com/ppmq/ppmqd/common/global"

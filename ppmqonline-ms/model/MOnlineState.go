@@ -3,7 +3,7 @@ package model
 import (
 	"fmt"
 
-	"xcthings.com/hjyz/logs"
+	"github.com/pprpc/util/logs"
 	m "xcthings.com/ppmq/model"
 	"xcthings.com/ppmq/protoc/ppmqonline/OnlineState"
 )

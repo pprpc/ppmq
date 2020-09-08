@@ -3,8 +3,8 @@ package controller
 import (
 	"fmt"
 
-	"xcthings.com/hjyz/common"
-	"xcthings.com/hjyz/logs"
+	"github.com/pprpc/util/common"
+	"github.com/pprpc/util/logs"
 	mqc "xcthings.com/ppmq/common"
 	errc "xcthings.com/ppmq/common/errorcode"
 	pm "xcthings.com/ppmq/model"
@@ -13,8 +13,8 @@ import (
 	m "xcthings.com/ppmq/ppmqd/model"
 	"xcthings.com/ppmq/protoc/ppmqd/PPMQOAONotify"
 	"xcthings.com/ppmq/protoc/ppmqd/PPMQPublish"
-	"xcthings.com/pprpc"
-	"xcthings.com/pprpc/packets"
+	"github.com/pprpc/core"
+	"github.com/pprpc/core/packets"
 	"xcthings.com/xc-app/protoc/ipc/OfflineNotify"
 )
 

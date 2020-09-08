@@ -9,7 +9,7 @@ import (
 	"xcthings.com/ppmq/protoc/ppmqd/PPMQPublish"
 	"xcthings.com/ppmq/protoc/ppmqd/PPMQSubscribe"
 	"xcthings.com/ppmq/protoc/ppmqd/PPMQUnSub"
-	"xcthings.com/pprpc"
+	"github.com/pprpc/core"
 
 	ctrl "xcthings.com/ppmq/ppmqcli/controller"
 )

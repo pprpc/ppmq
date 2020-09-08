@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"time"
 
-	"xcthings.com/hjyz/cache"
-	"xcthings.com/hjyz/logs"
+	"github.com/pprpc/util/cache"
+	"github.com/pprpc/util/logs"
 	"xcthings.com/micro/pprpcpool"
 	"xcthings.com/micro/svc"
-	"xcthings.com/pprpc"
-	"xcthings.com/pprpc/packets"
-	"xcthings.com/pprpc/sess"
+	"github.com/pprpc/core"
+	"github.com/pprpc/core/packets"
+	"github.com/pprpc/core/sess"
 
 	rsub "xcthings.com/ppmq/model/redis"
 )
