@@ -3,7 +3,7 @@ package model
 import (
 	"fmt"
 
-	errc "xcthings.com/ppmq/common/errorcode"
+	errc "github.com/pprpc/ppmq/common/errorcode"
 )
 
 // Clientid table name client_id struct define

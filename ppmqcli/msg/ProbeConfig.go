@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	"github.com/pprpc/util/common"
-	"xcthings.com/ppmq/protoc/ppmqd/PPMQPublish"
+	"github.com/pprpc/ppmq/protoc/ppmqd/PPMQPublish"
 	"github.com/pprpc/core"
 	"github.com/pprpc/core/packets"
 	pb "xcthings.com/protoc/ftconnnat/ProbeConfig"

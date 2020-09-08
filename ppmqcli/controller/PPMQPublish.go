@@ -3,8 +3,8 @@ package controller
 import (
 	"github.com/pprpc/util/common"
 	"github.com/pprpc/util/logs"
-	clic "xcthings.com/ppmq/ppmqcli/common"
-	"xcthings.com/ppmq/protoc/ppmqd/PPMQPublish"
+	clic "github.com/pprpc/ppmq/ppmqcli/common"
+	"github.com/pprpc/ppmq/protoc/ppmqd/PPMQPublish"
 	"github.com/pprpc/core"
 	"github.com/pprpc/core/packets"
 )

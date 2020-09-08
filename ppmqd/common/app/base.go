@@ -9,8 +9,8 @@ import (
 	"github.com/pprpc/util/logs"
 	"xcthings.com/micro/pprpcpool"
 	"xcthings.com/micro/svc"
-	g "xcthings.com/ppmq/ppmqd/common/global"
-	"xcthings.com/ppmq/protoc/ppmqd/PPMQEXChangeMsg"
+	g "github.com/pprpc/ppmq/ppmqd/common/global"
+	"github.com/pprpc/ppmq/protoc/ppmqd/PPMQEXChangeMsg"
 	"xcthings.com/protoc/authdevice/CheckDevice"
 	"xcthings.com/protoc/authdevice/CheckDevicePPMQPub"
 	"xcthings.com/protoc/authdevice/CheckDevicePPMQSub"
@@ -18,7 +18,7 @@ import (
 	"xcthings.com/protoc/authuser/CheckUserPPMQPub"
 	"xcthings.com/protoc/authuser/CheckUserPPMQSub"
 
-	ctrl "xcthings.com/ppmq/ppmqd/controller"
+	ctrl "github.com/pprpc/ppmq/ppmqd/controller"
 )
 
 func initAuthConns() (err error) {

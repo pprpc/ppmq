@@ -3,11 +3,11 @@ package controller
 import (
 	"github.com/pprpc/util/common"
 	"github.com/pprpc/util/logs"
-	"xcthings.com/ppmq/protoc/ppmqd/PPMQGetClientID"
+	"github.com/pprpc/ppmq/protoc/ppmqd/PPMQGetClientID"
 	"github.com/pprpc/core"
 	"github.com/pprpc/core/packets"
 
-	l "xcthings.com/ppmq/ppmqd/logic"
+	l "github.com/pprpc/ppmq/ppmqd/logic"
 )
 
 // PPMQGetClientIDer .

@@ -3,12 +3,12 @@ package logic
 import (
 	"fmt"
 
-	"xcthings.com/ppmq/protoc/ppmqd/PPMQGetClientID"
+	"github.com/pprpc/ppmq/protoc/ppmqd/PPMQGetClientID"
 	"github.com/pprpc/core"
 	"github.com/pprpc/core/packets"
 
-	errc "xcthings.com/ppmq/common/errorcode"
-	m "xcthings.com/ppmq/ppmqd/model"
+	errc "github.com/pprpc/ppmq/common/errorcode"
+	m "github.com/pprpc/ppmq/ppmqd/model"
 )
 
 // LPPMQGetClientID PPMQGetClientID Business logic

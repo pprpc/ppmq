@@ -4,15 +4,15 @@ import (
 	"fmt"
 
 	"github.com/pprpc/util/logs"
-	"xcthings.com/ppmq/protoc/ppmqd/PPMQConnect"
+	"github.com/pprpc/ppmq/protoc/ppmqd/PPMQConnect"
 	"github.com/pprpc/core"
 	"github.com/pprpc/core/packets"
 
-	mqc "xcthings.com/ppmq/common"
-	errc "xcthings.com/ppmq/common/errorcode"
-	pm "xcthings.com/ppmq/model"
-	g "xcthings.com/ppmq/ppmqd/common/global"
-	m "xcthings.com/ppmq/ppmqd/model"
+	mqc "github.com/pprpc/ppmq/common"
+	errc "github.com/pprpc/ppmq/common/errorcode"
+	pm "github.com/pprpc/ppmq/model"
+	g "github.com/pprpc/ppmq/ppmqd/common/global"
+	m "github.com/pprpc/ppmq/ppmqd/model"
 )
 
 // LPPMQConnect PPMQConnect Business logic

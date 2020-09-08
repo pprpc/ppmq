@@ -3,12 +3,12 @@ package controller
 import (
 	"github.com/pprpc/util/common"
 	"github.com/pprpc/util/logs"
-	"xcthings.com/ppmq/protoc/ppmqd/PPMQUnSub"
+	"github.com/pprpc/ppmq/protoc/ppmqd/PPMQUnSub"
 	"github.com/pprpc/core"
 	"github.com/pprpc/core/packets"
 
-	g "xcthings.com/ppmq/ppmqd/common/global"
-	l "xcthings.com/ppmq/ppmqd/logic"
+	g "github.com/pprpc/ppmq/ppmqd/common/global"
+	l "github.com/pprpc/ppmq/ppmqd/logic"
 )
 
 // PPMQUnSuber .

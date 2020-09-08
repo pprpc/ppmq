@@ -7,7 +7,7 @@ import (
 
 	"github.com/pprpc/util/logs"
 	xcpprof "github.com/pprpc/util/pprof"
-	g "xcthings.com/ppmq/ppmqonline-ms/common/global"
+	g "github.com/pprpc/ppmq/ppmqonline-ms/common/global"
 	"github.com/pprpc/core"
 )
 

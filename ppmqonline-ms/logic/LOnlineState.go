@@ -3,12 +3,12 @@ package logic
 import (
 	"fmt"
 
-	"xcthings.com/ppmq/protoc/ppmqonline/OnlineState"
+	"github.com/pprpc/ppmq/protoc/ppmqonline/OnlineState"
 	"github.com/pprpc/core"
 	"github.com/pprpc/core/packets"
 	errc "xcthings.com/xc-app/common/errorcode"
 
-	m "xcthings.com/ppmq/ppmqonline-ms/model"
+	m "github.com/pprpc/ppmq/ppmqonline-ms/model"
 )
 
 // LOnlineState OnlineState Business logic

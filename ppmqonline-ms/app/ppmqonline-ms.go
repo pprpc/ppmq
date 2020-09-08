@@ -6,8 +6,8 @@ import (
 
 	"github.com/pprpc/util/common"
 	"github.com/pprpc/util/logs"
-	"xcthings.com/ppmq/ppmqonline-ms/common/app"
-	g "xcthings.com/ppmq/ppmqonline-ms/common/global"
+	"github.com/pprpc/ppmq/ppmqonline-ms/common/app"
+	g "github.com/pprpc/ppmq/ppmqonline-ms/common/global"
 )
 
 var (

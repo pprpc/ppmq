@@ -7,14 +7,14 @@ import (
 	"github.com/pprpc/util/cache"
 	"github.com/pprpc/util/common"
 	"github.com/pprpc/util/logs"
-	"xcthings.com/ppmq/protoc/ppmqd/PPMQConnect"
+	"github.com/pprpc/ppmq/protoc/ppmqd/PPMQConnect"
 	"github.com/pprpc/core"
 	"github.com/pprpc/core/packets"
 
-	mqc "xcthings.com/ppmq/common"
-	pm "xcthings.com/ppmq/model"
-	g "xcthings.com/ppmq/ppmqd/common/global"
-	l "xcthings.com/ppmq/ppmqd/logic"
+	mqc "github.com/pprpc/ppmq/common"
+	pm "github.com/pprpc/ppmq/model"
+	g "github.com/pprpc/ppmq/ppmqd/common/global"
+	l "github.com/pprpc/ppmq/ppmqd/logic"
 )
 
 // PPMQConnecter .

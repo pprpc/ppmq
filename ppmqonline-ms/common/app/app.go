@@ -8,8 +8,8 @@ import (
 	"github.com/pprpc/util/common"
 	"github.com/pprpc/util/logs"
 	"xcthings.com/micro/svc"
-	g "xcthings.com/ppmq/ppmqonline-ms/common/global"
-	"xcthings.com/ppmq/ppmqonline-ms/model"
+	g "github.com/pprpc/ppmq/ppmqonline-ms/common/global"
+	"github.com/pprpc/ppmq/ppmqonline-ms/model"
 )
 
 // Run start app

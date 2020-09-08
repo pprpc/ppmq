@@ -3,11 +3,11 @@ package controller
 import (
 	"github.com/pprpc/util/common"
 	"github.com/pprpc/util/logs"
-	"xcthings.com/ppmq/protoc/ppmqonline/OnlineState"
+	"github.com/pprpc/ppmq/protoc/ppmqonline/OnlineState"
 	"github.com/pprpc/core"
 	"github.com/pprpc/core/packets"
 
-	l "xcthings.com/ppmq/ppmqonline-ms/logic"
+	l "github.com/pprpc/ppmq/ppmqonline-ms/logic"
 )
 
 // OnlineStateer .

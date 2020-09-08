@@ -13,7 +13,7 @@ import (
 	"github.com/pprpc/core/packets"
 	"github.com/pprpc/core/sess"
 
-	rsub "xcthings.com/ppmq/model/redis"
+	rsub "github.com/pprpc/ppmq/model/redis"
 )
 
 // ConnAttr .

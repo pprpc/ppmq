@@ -1,6 +1,6 @@
 package model
 
-import "xcthings.com/ppmq/protoc/ppmqd/PPMQEXChangeMsg"
+import "github.com/pprpc/ppmq/protoc/ppmqd/PPMQEXChangeMsg"
 
 // MPPMQEXChangeMsg PPMQEXChangeMsg  
 func MPPMQEXChangeMsg(req *PPMQEXChangeMsg.Req) (resp *PPMQEXChangeMsg.Resp, code uint64, err error) {

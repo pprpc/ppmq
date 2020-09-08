@@ -1,11 +1,11 @@
 package logic
 
 import (
-	"xcthings.com/ppmq/protoc/ppmqd/PPMQDisconnect"
+	"github.com/pprpc/ppmq/protoc/ppmqd/PPMQDisconnect"
 	"github.com/pprpc/core"
 	"github.com/pprpc/core/packets"
 
-	m "xcthings.com/ppmq/ppmqd/model"
+	m "github.com/pprpc/ppmq/ppmqd/model"
 )
 
 // LPPMQDisconnect PPMQDisconnect Business logic

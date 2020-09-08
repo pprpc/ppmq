@@ -4,14 +4,14 @@ import (
 	"fmt"
 
 	"github.com/pprpc/util/logs"
-	errc "xcthings.com/ppmq/common/errorcode"
-	"xcthings.com/ppmq/protoc/ppmqd/PPMQSubscribe"
+	errc "github.com/pprpc/ppmq/common/errorcode"
+	"github.com/pprpc/ppmq/protoc/ppmqd/PPMQSubscribe"
 	"github.com/pprpc/core"
 	"github.com/pprpc/core/packets"
 
-	g "xcthings.com/ppmq/ppmqd/common/global"
-	t "xcthings.com/ppmq/ppmqd/common/topic"
-	m "xcthings.com/ppmq/ppmqd/model"
+	g "github.com/pprpc/ppmq/ppmqd/common/global"
+	t "github.com/pprpc/ppmq/ppmqd/common/topic"
+	m "github.com/pprpc/ppmq/ppmqd/model"
 )
 
 // LPPMQSubscribe PPMQSubscribe Business logic

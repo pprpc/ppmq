@@ -7,10 +7,10 @@ import (
 	"github.com/go-xorm/xorm"
 	"github.com/pprpc/util/common"
 	"github.com/pprpc/util/logs"
-	mqc "xcthings.com/ppmq/common"
-	pm "xcthings.com/ppmq/model"
-	g "xcthings.com/ppmq/ppmqd/common/global"
-	"xcthings.com/ppmq/protoc/ppmqd/PPMQPublish"
+	mqc "github.com/pprpc/ppmq/common"
+	pm "github.com/pprpc/ppmq/model"
+	g "github.com/pprpc/ppmq/ppmqd/common/global"
+	"github.com/pprpc/ppmq/protoc/ppmqd/PPMQPublish"
 	"github.com/pprpc/core"
 )
 

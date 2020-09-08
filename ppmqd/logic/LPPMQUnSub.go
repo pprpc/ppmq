@@ -2,13 +2,13 @@ package logic
 
 import (
 	"github.com/pprpc/util/logs"
-	"xcthings.com/ppmq/protoc/ppmqd/PPMQUnSub"
+	"github.com/pprpc/ppmq/protoc/ppmqd/PPMQUnSub"
 	"github.com/pprpc/core"
 	"github.com/pprpc/core/packets"
 
-	errc "xcthings.com/ppmq/common/errorcode"
-	g "xcthings.com/ppmq/ppmqd/common/global"
-	m "xcthings.com/ppmq/ppmqd/model"
+	errc "github.com/pprpc/ppmq/common/errorcode"
+	g "github.com/pprpc/ppmq/ppmqd/common/global"
+	m "github.com/pprpc/ppmq/ppmqd/model"
 )
 
 // LPPMQUnSub PPMQUnSub Business logic

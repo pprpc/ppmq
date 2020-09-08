@@ -8,7 +8,7 @@ import (
 	"github.com/go-redis/redis"
 	"github.com/pprpc/util/logs"
 	"xcthings.com/micro/svc"
-	"xcthings.com/ppmq/protoc/ppmqd/PPMQSubscribe"
+	"github.com/pprpc/ppmq/protoc/ppmqd/PPMQSubscribe"
 )
 
 type RSub struct {

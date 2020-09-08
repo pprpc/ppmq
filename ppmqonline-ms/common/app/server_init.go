@@ -8,7 +8,7 @@ import (
 
 	"github.com/pprpc/util/logs"
 	"xcthings.com/micro/svc"
-	g "xcthings.com/ppmq/ppmqonline-ms/common/global"
+	g "github.com/pprpc/ppmq/ppmqonline-ms/common/global"
 	"github.com/pprpc/core"
 	"github.com/pprpc/core/packets"
 )

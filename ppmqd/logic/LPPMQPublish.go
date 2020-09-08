@@ -4,16 +4,16 @@ import (
 	"fmt"
 
 	"github.com/pprpc/util/logs"
-	errc "xcthings.com/ppmq/common/errorcode"
-	pm "xcthings.com/ppmq/model"
-	"xcthings.com/ppmq/protoc/ppmqd/PPMQPublish"
+	errc "github.com/pprpc/ppmq/common/errorcode"
+	pm "github.com/pprpc/ppmq/model"
+	"github.com/pprpc/ppmq/protoc/ppmqd/PPMQPublish"
 	"github.com/pprpc/core"
 	"github.com/pprpc/core/packets"
 
-	mqc "xcthings.com/ppmq/common"
-	g "xcthings.com/ppmq/ppmqd/common/global"
-	t "xcthings.com/ppmq/ppmqd/common/topic"
-	m "xcthings.com/ppmq/ppmqd/model"
+	mqc "github.com/pprpc/ppmq/common"
+	g "github.com/pprpc/ppmq/ppmqd/common/global"
+	t "github.com/pprpc/ppmq/ppmqd/common/topic"
+	m "github.com/pprpc/ppmq/ppmqd/model"
 )
 
 // LPPMQPublish PPMQPublish Business logic

@@ -2,10 +2,10 @@ package model
 
 import (
 	"github.com/pprpc/util/common"
-	pm "xcthings.com/ppmq/model"
-	g "xcthings.com/ppmq/ppmqd/common/global"
-	"xcthings.com/ppmq/ppmqd/common/topic"
-	"xcthings.com/ppmq/protoc/ppmqd/PPMQSubscribe"
+	pm "github.com/pprpc/ppmq/model"
+	g "github.com/pprpc/ppmq/ppmqd/common/global"
+	"github.com/pprpc/ppmq/ppmqd/common/topic"
+	"github.com/pprpc/ppmq/protoc/ppmqd/PPMQSubscribe"
 )
 
 // MPPMQSubscribe PPMQSubscribe

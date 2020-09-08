@@ -8,13 +8,13 @@ import (
 	"github.com/pprpc/util/common"
 	"github.com/pprpc/util/logs"
 	"xcthings.com/micro/svc"
-	mmodel "xcthings.com/ppmq/model"
-	g "xcthings.com/ppmq/ppmqd/common/global"
-	ctrl "xcthings.com/ppmq/ppmqd/controller"
-	"xcthings.com/ppmq/ppmqd/model"
+	mmodel "github.com/pprpc/ppmq/model"
+	g "github.com/pprpc/ppmq/ppmqd/common/global"
+	ctrl "github.com/pprpc/ppmq/ppmqd/controller"
+	"github.com/pprpc/ppmq/ppmqd/model"
 	"github.com/pprpc/core/sess"
 
-	rsub "xcthings.com/ppmq/model/redis"
+	rsub "github.com/pprpc/ppmq/model/redis"
 )
 
 // Run start app

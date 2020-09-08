@@ -1,9 +1,9 @@
 package model
 
 import (
-	pm "xcthings.com/ppmq/model"
-	g "xcthings.com/ppmq/ppmqd/common/global"
-	"xcthings.com/ppmq/protoc/ppmqd/PPMQUnSub"
+	pm "github.com/pprpc/ppmq/model"
+	g "github.com/pprpc/ppmq/ppmqd/common/global"
+	"github.com/pprpc/ppmq/protoc/ppmqd/PPMQUnSub"
 )
 
 // MPPMQUnSub PPMQUnSub  

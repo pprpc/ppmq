@@ -3,10 +3,10 @@ package model
 import (
 	"github.com/pprpc/util/common"
 	"github.com/pprpc/util/logs"
-	errc "xcthings.com/ppmq/common/errorcode"
-	pm "xcthings.com/ppmq/model"
-	g "xcthings.com/ppmq/ppmqd/common/global"
-	"xcthings.com/ppmq/protoc/ppmqd/PPMQPublish"
+	errc "github.com/pprpc/ppmq/common/errorcode"
+	pm "github.com/pprpc/ppmq/model"
+	g "github.com/pprpc/ppmq/ppmqd/common/global"
+	"github.com/pprpc/ppmq/protoc/ppmqd/PPMQPublish"
 	"github.com/pprpc/core"
 )
 

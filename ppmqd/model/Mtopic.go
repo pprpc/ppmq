@@ -4,9 +4,9 @@ import (
 	"fmt"
 
 	"github.com/pprpc/util/common"
-	pm "xcthings.com/ppmq/model"
-	g "xcthings.com/ppmq/ppmqd/common/global"
-	"xcthings.com/ppmq/ppmqd/common/topic"
+	pm "github.com/pprpc/ppmq/model"
+	g "github.com/pprpc/ppmq/ppmqd/common/global"
+	"github.com/pprpc/ppmq/ppmqd/common/topic"
 )
 
 // Sub .

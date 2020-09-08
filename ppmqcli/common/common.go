@@ -1,7 +1,7 @@
 package common
 
 import (
-	"xcthings.com/ppmq/protoc/ppmqd/PPMQPublish"
+	"github.com/pprpc/ppmq/protoc/ppmqd/PPMQPublish"
 	"github.com/pprpc/core/packets"
 )
 

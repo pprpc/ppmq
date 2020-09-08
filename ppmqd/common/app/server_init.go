@@ -8,9 +8,9 @@ import (
 
 	"github.com/pprpc/util/logs"
 	"xcthings.com/micro/svc"
-	mqc "xcthings.com/ppmq/common"
-	g "xcthings.com/ppmq/ppmqd/common/global"
-	ctrl "xcthings.com/ppmq/ppmqd/controller"
+	mqc "github.com/pprpc/ppmq/common"
+	g "github.com/pprpc/ppmq/ppmqd/common/global"
+	ctrl "github.com/pprpc/ppmq/ppmqd/controller"
 	"github.com/pprpc/core"
 	"github.com/pprpc/core/packets"
 	"github.com/pprpc/core/pptcp"

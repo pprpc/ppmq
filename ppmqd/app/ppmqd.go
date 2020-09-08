@@ -6,9 +6,9 @@ import (
 
 	"github.com/pprpc/util/common"
 	"github.com/pprpc/util/logs"
-	"xcthings.com/ppmq/ppmqd/common/app"
-	g "xcthings.com/ppmq/ppmqd/common/global"
-	ctrl "xcthings.com/ppmq/ppmqd/controller"
+	"github.com/pprpc/ppmq/ppmqd/common/app"
+	g "github.com/pprpc/ppmq/ppmqd/common/global"
+	ctrl "github.com/pprpc/ppmq/ppmqd/controller"
 )
 
 var (

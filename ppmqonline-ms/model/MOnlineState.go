@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	"github.com/pprpc/util/logs"
-	m "xcthings.com/ppmq/model"
-	"xcthings.com/ppmq/protoc/ppmqonline/OnlineState"
+	m "github.com/pprpc/ppmq/model"
+	"github.com/pprpc/ppmq/protoc/ppmqonline/OnlineState"
 )
 
 // MOnlineState OnlineState

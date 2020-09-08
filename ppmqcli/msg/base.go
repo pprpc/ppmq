@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/pprpc/util/common"
-	"xcthings.com/ppmq/ppmqcli"
+	"github.com/pprpc/ppmq/ppmqcli"
 	"github.com/pprpc/core"
 )
 

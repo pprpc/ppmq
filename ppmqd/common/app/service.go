@@ -1,18 +1,18 @@
 package app
 
 import (
-	"xcthings.com/ppmq/protoc/ppmqd/PPMQConnect"
-	"xcthings.com/ppmq/protoc/ppmqd/PPMQDisconnect"
-	"xcthings.com/ppmq/protoc/ppmqd/PPMQEXChangeMsg"
-	"xcthings.com/ppmq/protoc/ppmqd/PPMQGetClientID"
-	"xcthings.com/ppmq/protoc/ppmqd/PPMQGetSublist"
-	"xcthings.com/ppmq/protoc/ppmqd/PPMQPing"
-	"xcthings.com/ppmq/protoc/ppmqd/PPMQPublish"
-	"xcthings.com/ppmq/protoc/ppmqd/PPMQSubscribe"
-	"xcthings.com/ppmq/protoc/ppmqd/PPMQUnSub"
+	"github.com/pprpc/ppmq/protoc/ppmqd/PPMQConnect"
+	"github.com/pprpc/ppmq/protoc/ppmqd/PPMQDisconnect"
+	"github.com/pprpc/ppmq/protoc/ppmqd/PPMQEXChangeMsg"
+	"github.com/pprpc/ppmq/protoc/ppmqd/PPMQGetClientID"
+	"github.com/pprpc/ppmq/protoc/ppmqd/PPMQGetSublist"
+	"github.com/pprpc/ppmq/protoc/ppmqd/PPMQPing"
+	"github.com/pprpc/ppmq/protoc/ppmqd/PPMQPublish"
+	"github.com/pprpc/ppmq/protoc/ppmqd/PPMQSubscribe"
+	"github.com/pprpc/ppmq/protoc/ppmqd/PPMQUnSub"
 
-	g "xcthings.com/ppmq/ppmqd/common/global"
-	ctrl "xcthings.com/ppmq/ppmqd/controller"
+	g "github.com/pprpc/ppmq/ppmqd/common/global"
+	ctrl "github.com/pprpc/ppmq/ppmqd/controller"
 )
 
 func regService() {

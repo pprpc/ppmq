@@ -3,14 +3,14 @@ package controller
 import (
 	"github.com/pprpc/util/common"
 	"github.com/pprpc/util/logs"
-	mqc "xcthings.com/ppmq/common"
-	"xcthings.com/ppmq/protoc/ppmqd/PPMQPing"
+	mqc "github.com/pprpc/ppmq/common"
+	"github.com/pprpc/ppmq/protoc/ppmqd/PPMQPing"
 	"github.com/pprpc/core"
 	"github.com/pprpc/core/packets"
 
-	g "xcthings.com/ppmq/ppmqd/common/global"
+	g "github.com/pprpc/ppmq/ppmqd/common/global"
 
-	m "xcthings.com/ppmq/ppmqd/model"
+	m "github.com/pprpc/ppmq/ppmqd/model"
 )
 
 // PPMQPinger .

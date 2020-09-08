@@ -3,7 +3,7 @@ package controller
 import (
 	"github.com/pprpc/util/common"
 	"github.com/pprpc/util/logs"
-	"xcthings.com/ppmq/protoc/ppmqd/PPMQConnect"
+	"github.com/pprpc/ppmq/protoc/ppmqd/PPMQConnect"
 	"github.com/pprpc/core"
 	"github.com/pprpc/core/packets"
 )

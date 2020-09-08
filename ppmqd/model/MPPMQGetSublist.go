@@ -1,8 +1,8 @@
 package model
 
 import (
-	pm "xcthings.com/ppmq/model"
-	"xcthings.com/ppmq/protoc/ppmqd/PPMQGetSublist"
+	pm "github.com/pprpc/ppmq/model"
+	"github.com/pprpc/ppmq/protoc/ppmqd/PPMQGetSublist"
 )
 
 // MPPMQGetSublist PPMQGetSublist  

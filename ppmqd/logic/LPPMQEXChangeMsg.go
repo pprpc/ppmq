@@ -1,11 +1,11 @@
 package logic
 
 import (
-	"xcthings.com/ppmq/protoc/ppmqd/PPMQEXChangeMsg"
+	"github.com/pprpc/ppmq/protoc/ppmqd/PPMQEXChangeMsg"
 	"github.com/pprpc/core"
 	"github.com/pprpc/core/packets"
 
-	m "xcthings.com/ppmq/ppmqd/model"
+	m "github.com/pprpc/ppmq/ppmqd/model"
 )
 
 // LPPMQEXChangeMsg PPMQEXChangeMsg Business logic

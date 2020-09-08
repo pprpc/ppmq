@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/pprpc/util/common"
-	errc "xcthings.com/ppmq/common/errorcode"
+	errc "github.com/pprpc/ppmq/common/errorcode"
 )
 
 // SaveMsg .

@@ -3,11 +3,11 @@ package controller
 import (
 	"github.com/pprpc/util/common"
 	"github.com/pprpc/util/logs"
-	mqc "xcthings.com/ppmq/common"
-	g "xcthings.com/ppmq/ppmqd/common/global"
-	lm "xcthings.com/ppmq/ppmqd/model"
-	"xcthings.com/ppmq/protoc/ppmqd/PPMQEXChangeMsg"
-	"xcthings.com/ppmq/protoc/ppmqd/PPMQPublish"
+	mqc "github.com/pprpc/ppmq/common"
+	g "github.com/pprpc/ppmq/ppmqd/common/global"
+	lm "github.com/pprpc/ppmq/ppmqd/model"
+	"github.com/pprpc/ppmq/protoc/ppmqd/PPMQEXChangeMsg"
+	"github.com/pprpc/ppmq/protoc/ppmqd/PPMQPublish"
 	"github.com/pprpc/core"
 	"github.com/pprpc/core/packets"
 )

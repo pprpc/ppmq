@@ -1,8 +1,8 @@
 package model
 
 import (
-	pm "xcthings.com/ppmq/model"
-	"xcthings.com/ppmq/protoc/ppmqd/PPMQGetClientID"
+	pm "github.com/pprpc/ppmq/model"
+	"github.com/pprpc/ppmq/protoc/ppmqd/PPMQGetClientID"
 )
 
 // MPPMQGetClientID PPMQGetClientID  

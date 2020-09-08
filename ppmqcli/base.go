@@ -1,17 +1,17 @@
 package ppmqcli
 
 import (
-	"xcthings.com/ppmq/protoc/ppmqd/PPMQConnect"
-	"xcthings.com/ppmq/protoc/ppmqd/PPMQDisconnect"
-	"xcthings.com/ppmq/protoc/ppmqd/PPMQGetClientID"
-	"xcthings.com/ppmq/protoc/ppmqd/PPMQGetSublist"
-	"xcthings.com/ppmq/protoc/ppmqd/PPMQPing"
-	"xcthings.com/ppmq/protoc/ppmqd/PPMQPublish"
-	"xcthings.com/ppmq/protoc/ppmqd/PPMQSubscribe"
-	"xcthings.com/ppmq/protoc/ppmqd/PPMQUnSub"
+	"github.com/pprpc/ppmq/protoc/ppmqd/PPMQConnect"
+	"github.com/pprpc/ppmq/protoc/ppmqd/PPMQDisconnect"
+	"github.com/pprpc/ppmq/protoc/ppmqd/PPMQGetClientID"
+	"github.com/pprpc/ppmq/protoc/ppmqd/PPMQGetSublist"
+	"github.com/pprpc/ppmq/protoc/ppmqd/PPMQPing"
+	"github.com/pprpc/ppmq/protoc/ppmqd/PPMQPublish"
+	"github.com/pprpc/ppmq/protoc/ppmqd/PPMQSubscribe"
+	"github.com/pprpc/ppmq/protoc/ppmqd/PPMQUnSub"
 	"github.com/pprpc/core"
 
-	ctrl "xcthings.com/ppmq/ppmqcli/controller"
+	ctrl "github.com/pprpc/ppmq/ppmqcli/controller"
 )
 
 var service *pprpc.Service

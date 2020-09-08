@@ -5,13 +5,13 @@ import (
 
 	"github.com/pprpc/util/common"
 	"github.com/pprpc/util/logs"
-	pm "xcthings.com/ppmq/model"
-	"xcthings.com/ppmq/protoc/ppmqd/PPMQPublish"
+	pm "github.com/pprpc/ppmq/model"
+	"github.com/pprpc/ppmq/protoc/ppmqd/PPMQPublish"
 	"github.com/pprpc/core"
 	"github.com/pprpc/core/packets"
 
-	g "xcthings.com/ppmq/ppmqd/common/global"
-	l "xcthings.com/ppmq/ppmqd/logic"
+	g "github.com/pprpc/ppmq/ppmqd/common/global"
+	l "github.com/pprpc/ppmq/ppmqd/logic"
 )
 
 // PPMQPublisher .

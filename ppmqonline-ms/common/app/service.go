@@ -1,10 +1,10 @@
 package app
 
 import (
-	g "xcthings.com/ppmq/ppmqonline-ms/common/global"
-	"xcthings.com/ppmq/protoc/ppmqonline/OnlineState"
+	g "github.com/pprpc/ppmq/ppmqonline-ms/common/global"
+	"github.com/pprpc/ppmq/protoc/ppmqonline/OnlineState"
 
-	ctrl "xcthings.com/ppmq/ppmqonline-ms/controller"
+	ctrl "github.com/pprpc/ppmq/ppmqonline-ms/controller"
 )
 
 func regService() {

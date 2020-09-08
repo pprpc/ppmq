@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"xcthings.com/micro/svc"
-	ppmq "xcthings.com/ppmq/model"
+	ppmq "github.com/pprpc/ppmq/model"
 )
 
 //InitEngine  db engine
